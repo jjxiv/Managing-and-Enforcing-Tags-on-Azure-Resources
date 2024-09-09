@@ -4,12 +4,15 @@
 Managing and Enforcing Tags on Azure Resources
 </h1>
 
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Tags-purple?style=for-the-badge)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge) <br></br>
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Storage_Account-37c2b1?style=for-the-badge)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure_Policy-22aad0?style=for-the-badge)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Subscription-ffd410?style=for-the-badge)
+<div align="center">
+    <img src="https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge" alt="Microsoft Azure">
+    <img src="https://img.shields.io/badge/Microsoft-Tags-purple?style=for-the-badge" alt="Microsoft Tags">
+    <img src="https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge" alt="Microsoft Resource Group">
+    <br>
+    <img src="https://img.shields.io/badge/Microsoft-Storage_Account-37c2b1?style=for-the-badge" alt="Microsoft Storage Account">
+    <img src="https://img.shields.io/badge/Microsoft-Azure_Policy-22aad0?style=for-the-badge" alt="Microsoft Azure Policy">
+    <img src="https://img.shields.io/badge/Microsoft-Subscription-ffd410?style=for-the-badge" alt="Microsoft Subscription">
+</div>
 
 ## Description
 
