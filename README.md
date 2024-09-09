@@ -1,4 +1,4 @@
-![image.png](cover.png)
+![image.png](images/cover.png)
 
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
 Managing and Enforcing Tags on Azure Resources
@@ -20,7 +20,7 @@ This project focuses on efficiently managing and enforcing resource tagging in A
 
 ## Architecture Diagram
 
-![image.png](diagram.jpg)
+![image.png](images/diagram.jpg)
 
 ## Requirements
 
@@ -40,10 +40,10 @@ To begin, locate the **`rg-jrchjhn-project-001`** resource group for testing pur
 
 - Go to your resource group **`rg-jrchjhn-project-001`** from your storage account **`storageaccjj001`.**
 
-  ![image.png](image.png)
+  ![image.png](images/image.png)
 
 - Under the resource group Tags, add **`Team`** under Name and **`DevOps`** under Value. Click apply.
-  ![image.png](image%201.png)
+  ![image.png](images/image%201.png)
 
 ### **Step 2: Enforce tagging of resource using Azure policy**
 
@@ -53,30 +53,30 @@ Find the _"Require a tag and its value on resources"_ built-in policy and review
 
   _Require a tag and its value on resource groups_
 
-  ![image.png](image%202.png)
+  ![image.png](images/image%202.png)
 
 - Click on Assign Policy
 
-  ![image.png](image%203.png)
+  ![image.png](images/image%203.png)
 
 - Click on the scope ellipsis button, specify the Azure subscription and Resource Group
 
-  ![image.png](image%204.png)
+  ![image.png](images/image%204.png)
 
 - Input the assignment name required for resource tag and its description. Then click next.
 
-  ![image.png](image%205.png)
+  ![image.png](images/image%205.png)
 
 - Moving to the parameters tab, make sure to input the Tag Name and Tag Value
 
-  ![image.png](image%206.png)
+  ![image.png](images/image%206.png)
 
 - Head to Review + Create and click on Create button
 
-  ![image.png](image%207.png)
+  ![image.png](images/image%207.png)
 
 - Lets try to create **`storageaccjj002`** under the resource group **`rg-jrchjhn-project-001`.** After clicking on **Review + create**, it will generate an error because we have skipped the required tags
-  ![image.png](image%208.png)
+  ![image.png](images/image%208.png)
   _Note: The effect of enforcing a policy may take around 5-15 minutes_
 
 ### **Step 3: Apply tagging using Azure policy**
@@ -85,25 +85,25 @@ Now, we assign the _Inherit a tag from the resource group if missing_ built-in p
 
 - Navigate to Policy > Assignment and delete the created policy definition from Step 2
 
-  ![image.png](image%209.png)
+  ![image.png](images/image%209.png)
 
 - Next, click Assign policy on the same page. Select the scope to the proper subscription **`AZSubscription00`** and resource group **`rg-jrchjhn-project-001` .** Click on the **Policy definition** ellipsis button, search for _inherit a tag from the resource group if missing_ and select the checkbox, then add. Click next.
 
-  ![image.png](image%2010.png)
+  ![image.png](images/image%2010.png)
 
 - Under parameters tab, input **`Team`** for the tag name and click next
 
-  ![image.png](image%2011.png)
+  ![image.png](images/image%2011.png)
 
 - In Remediation, click the **Create a remediation** checkbox and head over to **Review + create**
 
-  ![image.png](image%2012.png)
+  ![image.png](images/image%2012.png)
 
 - Now, click **Create**
 
-  ![image.png](image%2013.png)
+  ![image.png](images/image%2013.png)
 
 - Lets try the newly created policy and create a new storage named **`storageaccjj002` \*(**set to LRS - Replication and leave out other details)\* and click on **Review + create**
-  ![image.png](image%2014.png)
+  ![image.png](images/image%2014.png)
 - As you can see, the Tag **`Team:DevOps`** has been inherited from the Azure policy we have created ensuring that enforcing policies worked.
-  ![image.png](image%2015.png)
+  ![image.png](images/image%2015.png)
