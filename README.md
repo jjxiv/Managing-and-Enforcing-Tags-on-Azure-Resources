@@ -3,7 +3,7 @@
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
 Managing and Enforcing Tags on Azure Resources
 </h1>
-![Static Badge](https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge)
+https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge
 ![Static Badge](https://img.shields.io/badge/Microsoft-Tags-purple?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Microsoft-Storage_Account-37c2b1?style=for-the-badge)
