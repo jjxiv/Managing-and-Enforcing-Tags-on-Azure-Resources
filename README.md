@@ -6,7 +6,7 @@ This project activity focuses on efficiently managing and enforcing resource tag
 
 ## Architecture and Diagram
 
-<INSERT IMAGE>
+![image.png](diagram.jpg)
 
 ## Requirements
 
