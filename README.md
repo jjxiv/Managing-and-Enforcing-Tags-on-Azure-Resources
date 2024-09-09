@@ -1,8 +1,10 @@
+![image.png](cover.png)
+
 # Managing and Enforcing Tags on Azure Resources
 
 ## Description
 
-This project activity focuses on efficiently managing and enforcing resource tagging in Azure using the Azure portal and built-in policies to streamline organization and governance. Tags play a vital role in categorizing resources based on departments, projects, or environments, simplifying resource management, cost tracking, and reporting. The tasks within the project emphasize both manual and automated tagging, ensuring consistency across resources. By enforcing tagging policies, administrators can require specific tags for resource creation and automatically apply missing tags, leading to better organization, cost optimization, and policy compliance across Azure environments.
+This project focuses on efficiently managing and enforcing resource tagging in Azure using the Azure portal and built-in policies to streamline organization and governance. Tags play a vital role in categorizing resources based on departments, projects, or environments, simplifying resource management, cost tracking, and reporting. The tasks within the project emphasize both manual and automated tagging, ensuring consistency across resources. By enforcing tagging policies, administrators can require specific tags for resource creation and automatically apply missing tags, leading to better organization, cost optimization, and policy compliance across Azure environments.
 
 ## Architecture and Diagram
 
