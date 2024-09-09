@@ -6,7 +6,7 @@ Managing and Enforcing Tags on Azure Resources
 
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft-Tags-purple?style=for-the-badge)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge) <br></br>
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft-Storage_Account-37c2b1?style=for-the-badge)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure_Policy-22aad0?style=for-the-badge)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft-Subscription-ffd410?style=for-the-badge)
