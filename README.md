@@ -6,7 +6,7 @@ Managing and Enforcing Tags on Azure Resources
 <!-- [![Go version][go_version_img]][go_dev_url]
 https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge -->
 
-[![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge)]
+![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-blue?style=for-the-badge)
 
 <!-- ![Static Badge](https://img.shields.io/badge/Microsoft-Tags-purple?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/Microsoft-Resource_Group-9cebff?style=for-the-badge)
