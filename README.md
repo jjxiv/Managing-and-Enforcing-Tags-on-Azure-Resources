@@ -1,6 +1,8 @@
 ![image.png](cover.png)
 
-<h1 style="text-align: center;">Managing and Enforcing Tags on Azure Resources</h1>
+<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
+Managing and Enforcing Tags on Azure Resources
+</h1>
 
 ## Description
 
